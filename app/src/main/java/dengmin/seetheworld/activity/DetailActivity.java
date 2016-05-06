@@ -1,4 +1,4 @@
-package dengmin.seetheworld.DetailActivity;
+package dengmin.seetheworld.activity;
 
 import android.support.v7.app.AppCompatActivity;
 
