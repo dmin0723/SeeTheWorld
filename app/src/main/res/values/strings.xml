@@ -5,4 +5,11 @@
 
     <string name="no_login">未登陆</string>
 
+    <!-- menu 布局 -->
+    <string name="technology">科技</string>
+    <string name="entertainment">娱乐</string>
+    <string name="setting">设置</string>
+    <string name="about_me">我的</string>
+    <string name="personal">个人信息</string>
+
 </resources>
