@@ -9,11 +9,11 @@
     <include layout="@layout/toolbar" />
 
     <TextView
-        android:id="@+id/username"
+        android:id="@+id/tv_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="30dp"
-        android:text="用户名"
+        android:text="@string/user_name"
         android:textSize="20sp" />
 
     <RelativeLayout
@@ -23,7 +23,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tv_nickname"
+            android:id="@+id/tv_petname"
             android:layout_alignParentRight="true"
             android:paddingRight="20dp"
             android:maxEms="10"
@@ -35,7 +35,7 @@
 
 
         <Button
-            android:id="@+id/nickname_btn"
+            android:id="@+id/btn_petname"
             style="?android:borderlessButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
             android:gravity="start|center_vertical"
             android:padding="30dp"
 
-            android:text="昵称"
+            android:text="@string/pet_name"
             android:textSize="20sp" />
     </RelativeLayout>
 
@@ -64,14 +64,14 @@
         android:singleLine="true"
         android:textSize="16sp"/>
     <Button
-        android:id="@+id/sex_btn"
+        android:id="@+id/btn_sex"
         style="?android:borderlessButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:gravity="start|center_vertical"
         android:padding="30dp"
-        android:text="性别"
+        android:text="@string/sex"
         android:textSize="20sp" />
     </RelativeLayout>
 
@@ -90,12 +90,12 @@
             android:paddingBottom="16dp"
             android:paddingRight="10dp"
             android:paddingTop="16dp"
-            android:text="这家伙很懒，什么都没留下"
+            android:text="@string/sign_text"
             android:textColor="@color/grey"
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/signature_btn"
+            android:id="@+id/btn_signature"
             style="?android:borderlessButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -104,12 +104,12 @@
             android:layout_centerVertical="true"
 
             android:gravity="start|center_vertical"
-            android:text="个性签名"
+            android:text="@string/sign"
             android:textSize="20sp" />
     </RelativeLayout>
 
     <Button
-        android:id="@+id/logout_btn"
+        android:id="@+id/btn_logout"
         style="?android:borderlessButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
         android:drawableLeft="@drawable/ic_logout"
         android:drawablePadding="8dp"
         android:gravity="start|center_vertical"
-        android:text="退出当前帐号"
+        android:text="@string/logout"
         android:textColor="@color/grey"
         android:textSize="18sp" />
 

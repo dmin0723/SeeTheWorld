@@ -12,4 +12,20 @@
     <string name="about_me">我的</string>
     <string name="personal">个人信息</string>
 
+    <!-- personal activity and layout -->
+    <string name="user_name">用户名</string>
+    <string name="pet_name">昵称</string>
+    <string name="sex">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="sign">个人签名</string>
+    <string name="sign_text">这家伙很懒，什么都没留下</string>
+    <string name="logout">退出当前账号</string>
+
+    <!-- dialog 各种对话框 -->
+    <string name="success">更新成功</string>
+    <string name="fail">更新失败</string>
+    <string name="confirm">确认退出登录吗？</string>
+    <string name="ensure">确定</string>
+    <string name="cancel">取消</string>
 </resources>
