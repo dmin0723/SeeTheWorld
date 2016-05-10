@@ -28,4 +28,9 @@
     <string name="confirm">确认退出登录吗？</string>
     <string name="ensure">确定</string>
     <string name="cancel">取消</string>
+
+    <!-- Login Activity -->
+    <string name="write_usename">请填写用户名</string>
+    <string name="write_password">请填写密码</string>
+
 </resources>

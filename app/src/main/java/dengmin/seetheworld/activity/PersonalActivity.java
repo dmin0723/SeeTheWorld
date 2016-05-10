@@ -19,7 +19,7 @@ import dengmin.seetheworld.views.LoadingDialog;
 /**
  * Created by dmin on 2016/5/6.
  */
-public class Personal extends AppCompatActivity implements View.OnClickListener{
+public class PersonalActivity extends AppCompatActivity implements View.OnClickListener{
     private TextView textView_UserName;
     private Button button_PetName;
     private Button button_Sex;
